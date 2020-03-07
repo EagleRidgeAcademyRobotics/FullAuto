@@ -153,6 +153,7 @@ while carryOn:
     if key[pygame.K_p]:
         path = robotpathfinding.getPath((myRobot.xPos, myRobot.yPos), (mouseX, mouseY))
         myRobot.pathfind = path
+    if key[pygame.K_b]:balls.append(ball.Ball(mouseX, mouseY))
             
 
 
